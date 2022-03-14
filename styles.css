@@ -148,7 +148,7 @@ main h1:hover {
 .prod .food{
     background-color: aliceblue;
     width: 20em;
-    height: 26em;
+    height: 27em;
     margin: 2em 3em;
     margin-left: 4em;
     box-shadow: 4px 7px 8px ;
@@ -481,6 +481,8 @@ main #menup{
         margin-bottom: 0.5em;
         left: 0.5em;
     }
+
+    
 }
 
 
@@ -499,6 +501,11 @@ main #menup{
         margin-top: 0.5em;
         margin-bottom: 0.5em;
         left: 0.5em;
+    }
+
+    .prod .food{
+        margin-left: 1em;
+        margin-right: 0;
     }
 
 }
