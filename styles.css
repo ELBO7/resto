@@ -1,0 +1,504 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body{
+    background-color: #E6D5B8;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+nav{
+    background: #1B1A17;
+    height: 10vh;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    box-shadow:  1px 10px 14px rgba(0, 0, 0, 0.308);
+}
+
+label.logo .head{
+    cursor: pointer;
+    color: white;
+    font-size: 2em;
+    line-height: 10vh;
+    padding: 0;
+    margin-left: 2.9em;
+    font-weight: bold;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+label img{
+    padding: 0.2em;
+    width: 3.5em;
+    position:  absolute;
+    left: 1.3em;
+    top: 0.3em;
+    border: 3px solid #F0A500;
+    background-color: black;
+    border-radius: 50%;
+}
+
+label img:hover{
+    background-color: #F0A500;
+    border-color: black;
+
+}
+
+
+label.logo .head:hover{
+    color: #F0A500;
+    background: none;
+}
+
+
+nav ul{
+    float: right;
+    margin-right: 4em;
+    left: -100%;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 10vh;
+    margin: 0 0.5em;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: 0.4em 0.8em;
+    border-radius: 8px;
+}
+
+a.active, a:hover{
+    background: #F0A500;
+    transition: all 500ms ease;
+}
+
+.btnmenu{
+    font-size: 2em;
+    color: white;
+    float: right;
+    line-height: 10vh;
+    margin-right: 1.2em;
+    cursor: pointer;
+    display: none;
+}
+.btnback{
+    font-size: 2em;
+    float: right;
+    line-height: 10vh;
+    margin-right: 1em;
+    color: #F0A500;
+    cursor: pointer;
+    display: none;
+}
+
+.btnback:hover{
+    color: #E6D5B8;
+    transition: all 400ms ;
+}
+
+.btnmenu:hover{
+    color: #F0A500;
+    transition: all 700ms ease;
+}
+
+#check{
+    display: none;
+}
+
+
+  /* main*/
+
+
+  main h1{
+    margin: 0em 10em;
+    margin-top: 2.5em;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3em;
+    background: #F0A500;
+    width: 8.4em;
+    border-radius: 20px;
+    border: 5px solid #1B1A17;
+    cursor: pointer;
+    color: black;
+}
+
+main h1:hover {
+    background-color: #1B1A17;
+    color: #F0A500;
+    border-color: #F0A500;
+}
+
+
+.prod .food{
+    background-color: aliceblue;
+    width: 20em;
+    height: 26em;
+    margin: 2em 3em;
+    margin-left: 4em;
+    box-shadow: 4px 7px 8px ;
+    border-radius: 20px;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+main #menup{
+    width: 96vw;
+    margin: 2em 1.5em;
+    border: 4px solid #F0A500;
+}
+
+.prod .food:hover {
+    box-shadow: 10px 10px 28px ;
+}
+
+.food:hover #tit {
+    color: #000;
+}
+
+.prod .food:hover img{
+    border-color: #F0A500;
+}
+
+
+.food img{
+    width: 15em;
+    height: 10em;
+    margin: 2em 2.4em;
+    margin-bottom: 0.5em;
+    border: 8px solid #1B1A17;
+    border-radius: 10px;
+}
+
+.details h3{
+    margin-left: 0.6em;
+    font-size: 3.5em;
+    color: #F0A500;
+    text-transform: capitalize;
+}
+
+.details li{
+    font-size: 1.8em;
+    margin-left: 1.5em;
+    color: rgb(46, 41, 41);
+    cursor: default;
+}
+
+.details li:hover{
+    color: black;
+}
+
+.details h4{
+    font-size: 2em;
+    background: #FFF89A;
+    border: 4px solid black;
+    border-radius: 30px;
+    padding: 0.1em 0;
+    width: 4em;
+    text-align: center;
+    margin-left: 3em;
+    margin-top: 0.5em;
+}
+
+.details h4:hover{
+    color: #E6D5B8;
+    background-color: #1B1A17;
+    border-color: #F0A500;
+    cursor: pointer;
+}
+
+
+#topicon a{
+    font-size: 1.5em;
+    color: black;
+    position: absolute;
+    left: 90vw;
+    top: 89vh;
+    position: fixed;
+    background-color: #F0A500;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+    padding: 0.3em 0;
+    border: 3px solid #1B1A17;
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px;
+}
+
+#topicon a:hover{
+    color: #F0A500;
+    background-color: #1B1A17;
+    border: 3px solid #F0A500;
+}
+
+#top{
+    position: absolute;
+    top: 0;
+}
+
+.blocks{
+    margin: 0em 5em;
+}
+
+.block{
+    background-color: white;
+    width: 20em;
+    height: 25em;
+    margin: 8em 2em;
+    padding: 1.5em;
+    border-radius: 1em;
+    box-shadow: 4px 4px 8px; 
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.block:hover {
+    box-shadow: 10px 10px 28px;
+}
+
+.block:hover .imgs{
+    border-color: tomato;
+    transition: all 800ms ease;
+}
+
+
+.imgs{
+    width: 15em;
+    height: 15em;
+    margin: 1em;
+    border: 8px solid #F0A500;
+    border-radius: 10px;
+}
+
+.textarea{
+    background: #1b1a17;
+    border-radius: 35px;
+    height: 4em;
+}
+
+.textarea:hover {
+    background-color: #F0A500;
+    transition: all 500ms ease-out;
+
+}
+
+.textarea:hover h3{
+    color: #1b1a17;
+    transition: all 200ms ease;
+}
+
+
+.textarea img{
+    width: 2em;
+    margin-left: 2em;
+    margin-top: 1em;
+    margin-bottom: 0;
+}
+
+.textarea h3{
+    color: #FFF89A;
+    margin-left: 1em;
+    margin-top: -1.5em;
+    text-align: center;
+}
+
+
+
+@media (max-width: 810px) {
+    label.logo .head{
+        font-size: 2.8em;
+        position: absolute;
+        padding-left: 2em;
+        padding-right: 0;
+        padding-left: 0;
+        margin-left: 2em;
+    }
+    nav ul li a{
+        font-size: 1em;
+    }
+
+    .block{
+        margin: 0em 9em;
+        margin-top: 6em;
+        margin-bottom: 2em;
+    }
+    .block:nth-child(1){
+        margin-top: 10em;
+    }
+    #topicon a{
+        left: 80vw;
+    }
+
+    main h1{
+        margin-top: 3.5em;
+        font-size: 3em;
+        margin-left: 4em;
+    }
+    main #menup{
+        width: 95vw;
+        margin: 2em 1em;
+        border: 4px solid #F0A500;
+    }
+
+    .prod .food{
+        margin-left: 1em;
+    }
+    
+
+
+    
+}
+
+@media (max-width: 789px) {
+    label.logo .head{
+        font-size: 2em;
+        padding: 0em;
+        position: absolute;
+    }
+
+    label img{
+        width: 3em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        left: 0.5em;
+    }
+
+    .btnback{
+        display: block;
+    }
+
+    .btnmenu{
+        display: block;
+        margin-left: 0;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #1B1A17;
+        left: 0;
+        text-align: center;
+    }
+    nav ul li{
+        display: block;
+        margin: 4em;
+        line-height: 2.5em;
+    }
+
+    nav ul li a{
+        font-size: 1.2em;
+        font-family: 'Akaya Telivigala', cursive;
+        color: #F0A500;
+        border: 0.3em solid #1B1A17;
+    }
+    nav ul li a:hover{
+        background: #F0A500;
+        color: #1B1A17;
+    }
+
+    a.active{
+        background: #1b1a17;
+        color: #E6D5B8;
+        border: 2px solid #F0A500;
+    }
+
+
+
+    #check:checked ~ ul{
+        border-top: 4px solid rgba(0, 0, 0, 0.26);
+        left: 0;
+        top: 0;
+        transition:  100ms;
+    }
+
+    main{
+        background-size: 90vw 90vh;
+    }
+    #topicon a{
+        position: absolute;
+        left: 82vw;
+        top: 88vh;
+        position: fixed;
+    }
+    .blocks{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .block{
+        margin-left: 5vw;
+        margin-bottom: 3em;
+    }
+    .block:nth-child(1){
+        margin-top: 9em;
+    }
+
+    main h1{
+        margin-top: 3.5em;
+        font-size: 2em;
+        margin-left: 1.5em;
+    }
+    main #menup{
+        width: 90vw;
+        margin: 2em 1em;
+        border: 4px solid #F0A500;
+    }
+
+    .prod .food{
+        margin-left: 1em;
+    }
+    
+
+}
+
+@media (max-width: 415px) {
+    .block{
+        margin-left: 8vw;
+        margin-bottom: 3em;
+        margin-right: 0;
+    }
+
+    .prod .food{
+        margin-left: 2.5em;
+    }
+    label img{
+        width: 3em;
+        margin-top: 1em;
+        margin-bottom: 0.5em;
+        left: 0.5em;
+    }
+}
+
+
+@media (max-width: 390px) {
+    .block{
+        margin-left: 5vw;
+        margin-bottom: 3em;
+        margin-right: 0;
+    }
+
+    .prod .food{
+        margin-left: 1em;
+    }
+    label img{
+        width: 3em;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        left: 0.5em;
+    }
+
+}
