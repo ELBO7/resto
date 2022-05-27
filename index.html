@@ -10,6 +10,9 @@
     <title>LBO7 SITE</title>
 </head>
 <body>
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
     <nav>
         <input type="checkbox" id="check">
         <label  for="check" class="btnmenu" > <i  class="fas fa-bars"> </i></label>
@@ -77,5 +80,13 @@
         </div>
     <main>
         <span id="topicon"><a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></span>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    setTimeout(function(){
+        $('.loader_bg').fadeToggle();
+    }, 1500);
+</script>
 <body>
 </html>
